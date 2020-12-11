@@ -117,5 +117,8 @@ $(".nav-link").click(function(){
   $("html, body").animate({ scrollTop: $("#"+pageId).offset().top }, 1000);
 });
 AOS.init();
+	  window.onload=function(){
+                $("#btn--all").click();
+                }
                // });
     });
